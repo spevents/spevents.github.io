@@ -2,7 +2,6 @@ import {
   Camera,
   Users,
   CalendarCheck,
-  GalleryVerticalEnd,
   LineChart,
   ChevronDown,
 } from "lucide-react";
@@ -112,7 +111,7 @@ export function LandingPage() {
                 </motion.div>
 
                 {/* See Examples Button */}
-                <motion.div
+                {/* <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   className="inline-block w-full sm:w-auto"
@@ -135,7 +134,7 @@ export function LandingPage() {
                       See Examples
                     </span>
                   </Link>
-                </motion.div>
+                </motion.div> */}
               </motion.div>
             </motion.div>
           </motion.div>
